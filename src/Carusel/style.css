@@ -1,0 +1,68 @@
+* {
+    box-sizing:border-box;
+  }
+  
+  body {
+      position: relative;
+      margin: 0;
+      padding: 0;
+  }
+  #root {
+      margin:0 auto;
+      background-color: rgb(245,244,242);
+      padding:20px 0;
+      width:100vw;
+      height:100vh;
+  }
+  
+  
+  h1 {
+     text-align: center;
+     margin:0;
+     font-weight: 500;
+     color:rgb(156,65,40);
+     padding: 10px 0;
+     background-color: white;
+     margin:10px 0;
+     font-family: 'Times New Roman', Times, serif;
+  }
+  
+ .carousel {
+    margin:0 auto;
+    width:80vw;
+    padding-top: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel-img {
+    width:80vw;
+    height:60vh;
+  } 
+  
+   
+  .images-wrapper{
+    height: fit-content;
+    /* height: fit-content; */
+    display: flex;
+    transition-duration: 1s;
+    position: relative;
+    z-index: 9;
+  }
+  
+  .pagination{
+    position: absolute;
+    bottom:10px;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 999;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

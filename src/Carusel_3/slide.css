@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper, #root {
+  height: 100%;
+}
+
+.myImg {
+/*        background-image: url("https://static.timesofisrael.com/www/uploads/2021/04/iStock-615398376-e1618739729576.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-position: center;
+  z-index: -1;
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  transition-duration: 3s;
+}
+
+.radio_inputs {
+  position: absolute;
+  bottom: 5%;
+  left: 48%;
+}
